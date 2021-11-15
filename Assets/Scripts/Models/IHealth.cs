@@ -1,7 +1,7 @@
 ﻿public interface IHealth
 {
-    float GetHealth { get; }
-    float GetMaxHealth { get; }
+    float Health { get; }
+    float MaxHealth { get; }
 
     void SetHealth(float amount);
     void AddHealth(float amount);

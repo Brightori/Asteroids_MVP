@@ -1,3 +1,3 @@
-﻿public interface IShipModel : IModel, IHealth, ISpeed, IMove, IRotate
+﻿public interface IShipModel : IModel, IHealth, IMove, IRotate
 {
 }

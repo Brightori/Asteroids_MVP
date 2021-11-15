@@ -1,1 +1,2 @@
-﻿public interface IModel { }
+﻿public interface IModel : IIdentifier
+{ }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveSystem : IStandartMoveSystem
 {
-    private Imov
+    private IMove moveData;
 
     public void Pause()
     {
@@ -20,16 +20,6 @@ public class MoveSystem : IStandartMoveSystem
     {
         throw new System.NotImplementedException();
     }
-}
-
-public class FixedUpdateMoveSystem
-{
-
-}
-
-public interface IPhysicsMoveSystem : IMoveSystem, IFixUpdatable
-{
-
 }
 
 public interface IStandartMoveSystem : IMoveSystem , IUpdatable
