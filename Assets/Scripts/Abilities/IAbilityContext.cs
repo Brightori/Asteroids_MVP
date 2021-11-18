@@ -1,1 +1,4 @@
-﻿public interface IAbilityContext { }
+﻿public interface IAbilityContext 
+{ 
+
+}

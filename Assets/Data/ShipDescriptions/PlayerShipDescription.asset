@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2765f0b3a0d3304ca9617f5ca392de2, type: 3}
+  m_Name: PlayerShipDescription
+  m_EditorClassIdentifier: 
+  description:
+    healthData:
+      Health: 100
+      MaxHealth: 100
+    moveData:
+      Position: {x: 0, y: 0, z: 0}
+      Speed: 5
+    rotationData:
+      Rotation: {x: 0, y: 0, z: 0}
+      RotationSpeed: 5
+    identifierContainer: {fileID: 11400000, guid: 1b65c26125eff3246b475d19befd559d, type: 2}
+    shipViewReference:
+      m_AssetGUID: 2a46c005a4b6e50418bc207587f0fef1
+      m_SubObjectName: 
+      m_SubObjectType: 
